@@ -27,6 +27,12 @@ together = (f'Area of the Black Sea = {436402} km2\n'
 
 print(together)
 
+
+print(f'Another variant:\n'
+      f'Area of the Black Sea = {436402} km2\n'
+      f'Area of the Azov Sea = {37800} km2\n'
+      f'Area of the Black Sea and the Sea of Azov together = {436402 + 37800} km2')
+
 print(separator)
 
 # task 05
