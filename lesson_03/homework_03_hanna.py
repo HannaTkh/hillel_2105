@@ -143,6 +143,5 @@ journey = (f'Distance between Kharkov and Budapest = 1600 km\n'
            f'1600 / 100 * 9 = {1600 // 100 * 9} liters\n'
            f'2) During this trip, you will have to stop at a gas station:\n'
            f'144 / 48 = {144 // 48} times')
-
 print(journey)
 
