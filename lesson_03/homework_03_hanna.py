@@ -12,8 +12,8 @@ alice_in_wonderland = ('"Would you tell me, please, which way I ought to go from
 print(alice_in_wonderland)
 
 counter = 38
-SEPARATOR = '- '*counter
-print(SEPARATOR)
+separator = '- '*counter
+print(separator)
 
 # task 04
 """
@@ -28,8 +28,8 @@ together = (f'Area of the Black Sea = {436402} km2\n'
 print(together)
 
 counter = 38
-SEPARATOR = '- '*counter
-print(SEPARATOR)
+separator = '- '*counter
+print(separator)
 
 # task 05
 """
@@ -49,8 +49,8 @@ solution = (f'Total store products = {375291} products\n'
 print(solution)
 
 counter = 38
-SEPARATOR = '- '*counter
-print(SEPARATOR)
+separator = '- '*counter
+print(separator)
 
 # task 06
 """
@@ -64,8 +64,8 @@ computer_cost = (f'If you pay 1179 UAH per month for 1.5 years,\n'
 print(computer_cost)
 
 counter = 38
-SEPARATOR = '- '*counter
-print(SEPARATOR)
+separator = '- '*counter
+print(separator)
 
 # task 07
 """
@@ -81,8 +81,8 @@ remainder_from_division = (f'Remainder from division:\n'
 print(remainder_from_division)
 
 counter = 38
-SEPARATOR = '- '*counter
-print(SEPARATOR)
+separator = '- '*counter
+print(separator)
 
 # task 08
 """
@@ -107,8 +107,8 @@ birthday_order = (f'Order for Iryna\'s birthday:\n'
 print(birthday_order)
 
 counter = 38
-SEPARATOR = '- '*counter
-print(SEPARATOR)
+separator = '- '*counter
+print(separator)
 
 # task 09
 """
@@ -122,8 +122,8 @@ photoalbum = (f'To place all 232 photos in an album, 8 for one page,\n'
 print(photoalbum)
 
 counter = 38
-SEPARATOR = '- '*counter
-print(SEPARATOR)
+separator = '- '*counter
+print(separator)
 
 # task 10
 """
