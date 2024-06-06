@@ -133,3 +133,5 @@ word_count = len(last_sentence.split())
 print('The number of words in the last sentence:', word_count)
 
 print(separator)
+
+
