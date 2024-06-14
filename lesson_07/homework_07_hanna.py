@@ -40,6 +40,7 @@ print(separator)
 """
 print('# task 3')
 
+
 def average(numbers):
     if numbers:
         return sum(numbers) / len(numbers)
@@ -57,6 +58,7 @@ print(separator)
 """
 print('# task 4')
 
+
 def reverse_string_order(s):
     return "".join(reversed(list(s)))
 
@@ -69,8 +71,9 @@ print(separator)
 """
 print('# task 5')
 
-def find_longest_word(text):
-    words = text.split()
+
+def find_longest_word(some_text):
+    words = some_text.split()
     if not words:
         return None
     longest_word = words[0]
@@ -92,24 +95,27 @@ print(separator)
 
 print('# task 6')
 
-def find_substring(str1, str2):
-    index = str1.find(str2)
+
+def find_substring(str01, str02):
+    index = str01.find(str02)
     return index
 
 
-str1 = "Hello, world!"
-str2 = "world"
+string1 = "Hello, world!"
+string2 = "world"
 
-print(find_substring(str1, str2))
+print(find_substring(string1, string2))
 
-str1 = "The quick brown fox jumps over the lazy dog"
-str2 = "cat"
-print(find_substring(str1, str2))
+string1 = "The quick brown fox jumps over the lazy dog"
+string2 = "cat"
+print(find_substring(string1, string2))
 
 print(separator)
 
 # task 7
 print('# task 7')
+
+
 # Function for calculating the price of a product
 def cost_of_computer(pay_for_month, number_of_months):
     return pay_for_month * number_of_months
@@ -121,6 +127,8 @@ print('If you pay 1179 UAH per month for 1,5 year,\n'
 print(separator)
 # task 8
 print('# task 8')
+
+
 # Function for calculating the sum of two seas
 def sum_areas_of_seas(area1: int | float, area2: int | float) -> int | float:
     return area1 + area2
@@ -167,6 +175,7 @@ print(separator)
 # task 10
 
 print('# task 10')
+
 
 # Counting the number of letter "h" in a string
 def quantity_of_h(string):
