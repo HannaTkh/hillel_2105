@@ -20,3 +20,4 @@ student.change_rating(9.2)
 
 print("\nAfter change raiting:"
       '\n'"Raiting:", student.rating)
+
