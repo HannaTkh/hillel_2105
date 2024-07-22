@@ -1,7 +1,6 @@
 
+from math import pi
 class Figure:
-    def __init__(self):
-        pass
 
     def area(self):
         raise NotImplementedError("The area method must be implemented in a subclass")
@@ -12,7 +11,6 @@ class Figure:
 
 class Square(Figure):
     def __init__(self, side):
-        super().__init__()
         self.side = side
 
     def area(self):
@@ -24,7 +22,6 @@ class Square(Figure):
 
 class Rectangle(Figure):
     def __init__(self, length, width):
-        super().__init__()
         self.length = length
         self.width = width
 
@@ -37,7 +34,6 @@ class Rectangle(Figure):
 
 class EquilateralTriangle(Figure):
     def __init__(self, basis, height):
-        super().__init__()
         self.basis = basis
         self.height = height
 
@@ -50,15 +46,12 @@ class EquilateralTriangle(Figure):
 
 class Circle(Figure):
     def __init__(self, radius):
-        super().__init__()
         self.radius = radius
 
     def area(self):
-        from math import pi
         return round(pi * self.radius ** 2, 2)
 
     def perimeter(self):
-        from math import pi
         return round(2 * pi * self.radius, 2)
 
 
